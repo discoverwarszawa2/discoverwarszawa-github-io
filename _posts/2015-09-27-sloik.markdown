@@ -5,8 +5,8 @@ date:   2015-09-27 15:16:00
 color: "citycenter"
 categories: restaurant
 location: "City Center"
-address: "Ul. Ogrodowa 31/35, Warszawa"
-telephone: "22 401 17 54"
+address: "Złota 11, 00-019 Warsaw"
+telephone: "+48 600 396 688"
 website: http://www.restauracjasloik.pl/
 type: cutlery
 headimage: /img/sloik/sloik_1.jpg

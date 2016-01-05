@@ -13,10 +13,10 @@ headimage: /img/sloik/sloik_1.jpg
 thumbnail: /img/sloik/reduced/sloik-thumb.jpg
 openingtimes: "check website"
 images:
-- /img/sloik/reduced/sloik-1.JPG
-- /img/sloik/reduced/sloik-2.JPG
-- /img/sloik/reduced/sloik-3.JPG
-- /img/sloik/reduced/sloik-4.JPG
+- /img/sloik/reduced/sloik-1.jpg
+- /img/sloik/reduced/sloik-2.jpg
+- /img/sloik/reduced/sloik-3.jpg
+- /img/sloik/reduced/sloik-4.jpg
 head-background: "black-background"
 description: "<p>Info coming soon.</p>"
 ---

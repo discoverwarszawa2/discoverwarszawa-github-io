@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Zagadka Coffeebar"
+date:   2015-06-19 15:16:00
+categories: cafe
+location: "Wola"
+color: "wola"
+address: "ul. Elektoralna 24, Warsaw"
+telephone: "22 254 99 36"
+website: https://www.facebook.com/zagadka.caffee
+type: coffee
+headimage: /img/zagadka/reduced/zagadka-9.jpg
+thumbnail: /img/zagadka/reduced/zagadka-thumb.jpg
+openingtimes: "Mon-Wed 8am to 10pm; Thu-Fri 8am-11pm; Sat 10am-11pm; Sun 10am-10pm"
+images:
+- /img/zagadka/reduced/zagadka-3.jpg
+- /img/zagadka/reduced/zagadka-4.jpg
+- /img/zagadka/reduced/zagadka-6.jpg
+- /img/zagadka/reduced/zagadka-7.jpg
+- /img/zagadka/reduced/zagadka-8.jpg
+- /img/zagadka/reduced/zagadka.jpg
+head-background: "black-background"
+description: "<p>Zagadka was one of the first places I visited when I first came to Warsaw. It became a regular destination of mine, and a firm favourite when I moved to Warsaw on a permanent basis.</p><p>Located a short walk or cycle from the Palace of Culture and Science, it is perfectly located when visiting the city for a short period. Being just far enough from the direct center, the venue is frequented mainly by local residents, which allows for an authentic view into the vibrant Warsovian lifestyle.</p><p>Although labelled as a 'coffeebar', I would highly recommend visiting Zagadka for the food. There is a decent range of dishes available, whilst not over populating the menu. From a simple chicken noodle soup through to salmon pancakes, it is all full of taste with careful thought put into the poresentation.</p>"
+---

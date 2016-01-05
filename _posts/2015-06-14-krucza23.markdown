@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Cafe Krucza 23"
+date:   2015-06-14 15:16:00
+categories: cafe
+color: "citycenter"
+location: "City Center"
+address: "ul. Krucza 23, Warsaw"
+telephone: "502 494 746"
+website: https://www.facebook.com/Krucza23
+type: coffee
+headimage: /img/krucza/reduced/Krucza-5.jpg
+thumbnail: /img/krucza/reduced/Krucza-thumb.jpg
+openingtimes: "Mon-Fri 8am-9pm; Sat-Sun 10am-9pm"
+images:
+- /img/krucza/reduced/Krucza-1.jpg
+- /img/krucza/reduced/Krucza-2.jpg
+- /img/krucza/reduced/Krucza-3.jpg
+- /img/krucza/reduced/Krucza-4.jpg
+- /img/krucza/reduced/Krucza-6.jpg
+- /img/krucza/reduced/Krucza-7.jpg
+head-background: "black-background"
+description: "<p>Cafe Krucza 23 is located in the city centre a short walk from the Palace of Culture and Science. Its name is taken from the street on which it is situated (Krucza). The beginning of Krucza street can be found opposite the British Bulldog Pub (Aleje Jerozolimskie, tram stop Krucza), with the cafe positioned a couple of blocks up.</p><p>Their coffee is roasted by the Java Coffee Company (Warsaw) and can be prepared by the espresso machine, or via alternative methods of drip, aeropress and chemex. A variety of teas are also available, including ‘Green Tea with Ginseng’, ‘Red Berry’ and ‘Apple Loves Mint’.</p><p>The atmosphere is relaxed, and the interior follows a grey tone, with a nice array of lighting. Outside seating is also available, with shade offered by the trees along the sidewalk.</p>"
+---

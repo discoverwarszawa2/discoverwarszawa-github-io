@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Solec 44"
+date:   2016-01-04 15:16:00
+categories: cafe
+location: "Solec"
+color: "solec"
+address: "ul. Solec 44, 00-394 Warszawa"
+telephone: "+48 798 363 996"
+website: https://www.facebook.com/solec.caffee
+type: cutlery
+headimage: /img/solec/reduced/solec-9.jpg
+thumbnail: /img/solec/reduced/solec-1.jpg
+openingtimes: "Mon-Wed 8am to 10pm; Thu-Fri 8am-11pm; Sat 10am-11pm; Sun 10am-10pm"
+images:
+- /img/solec/reduced/solec-2.jpg
+- /img/solec/reduced/solec-3.jpg
+- /img/solec/reduced/solec-4.jpg
+- /img/solec/reduced/solec-5.jpg
+head-background: "black-background"
+description: "<p>Solec 44 is a place that I have visited on a number of occasions. The food on offer is fantastic, and many people may like to visit purely for this reason. There is however a number of elements more to Solec 44.</p><p>Located in a fairly nondescript buidling on ul. Solec, the bar/restaurant contains various rooms with outside seating available at the front and along the side of the building. A large room at the back is used for live music and events. There are a great number of board games available for customers to use whilst enjoying a drink from their large selection of European beers.</p><p>The menu is ever changing, with their current set of dishes available on their website. Solec appear to pride themselves on their food and this has been evident on each of my visits there.</p>"
+---

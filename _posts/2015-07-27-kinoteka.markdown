@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Kinoteka"
+date:   2015-07-27 15:16:00
+categories: cinema
+color: "citycenter"
+location: "City Center"
+address: "Plac Defilad 1, 00-901 Warszawa"
+telephone: "22 551 70 70"
+website: http://www.kinoteka.pl/start
+type: film
+headimage: /img/kinoteka/kinoteka-1.jpg
+thumbnail: /img/kinoteka/kinoteka-1.jpg
+openingtimes: "check website"
+images:
+- /img/kinoteka/reduced/kinoteka-2.JPG
+- /img/kinoteka/reduced/kinoteka-4.JPG
+- /img/kinoteka/reduced/kinoteka-5.JPG
+- /img/kinoteka/reduced/kinoteka-6.JPG
+head-background: "black-background"
+description: "<p>Kinoteka is based at the bottom of the Palace of Culture and Science (a 'gift' from the Soviet Union to the people of Poland). The cinema has incredible interior, like stepping into the cinemas of the past.</p><p>The entrance can be found on the south side of the building with steps leading directly up to Kinoteka.</p>"
+---

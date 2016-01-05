@@ -1,0 +1,51 @@
+.grid {
+    max-width: 1140px;
+    margin: 0 auto;
+    @media screen and (max-width: $x-large) {
+        max-width: 1140px;
+    }
+    @media screen and (max-width: $large) {
+        max-width: 920px;
+    }
+    @media screen and (max-width: $medium) {
+        max-width: 700px;
+    }
+    @media screen and (max-width: $small) {
+        max-width: 480px;
+    }
+}
+
+.grid .grid__col {
+    padding-right: 20px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #171717;
+}
+
+body {
+    background-color: #171717;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.hide-sm {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}

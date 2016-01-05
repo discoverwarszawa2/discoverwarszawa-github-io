@@ -1,0 +1,52 @@
+<div class="hero hide-sm" ng-show="clicked"></div>
+<div class="container">
+<div class="row" ng-show="clicked">
+    <div class="col-md-4 search">
+        <input class="search-venues" ng-model="search" type="text" placeholder="Search">
+    </div>
+</div>
+
+    <div class="row" ng-show="clicked">
+        <div class="col-md-12">
+            <div class="disc-container" ng-repeat="venue in venues | filter:search" ng-class="'color-' + venue.color">
+                <div class="disc-image" ng-click="getVenue(venue); changeClick(false)">
+                    <a href="">
+                        <img ng-src="{{venue.thumbnail}}" alt="" />
+                    </a>
+                    <a href="" class="disc-image-overlay">{{ venue.location }}</a>
+                </div>
+                <div class="disc-footer">
+                    <div class="disc-footer-info">
+                        <a href="" ng-click="getVenue(venue)" class="animsition-link" ng-bind-html="venue.venueName"></a>
+                        <div class="disc-footer-icon">
+                            <i class="fa" ng-class="'fa-' + venue.type"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-hide="clicked">
+        <div class="row">
+            <div class="col-md-3 ven-details">
+                <ul class="venue-details" ng-class="'ind-' + indVenue.indColor">
+                    <li class="venue-title" ng-bind-html="indVenue.indName"></li>
+                    <li>{{ indVenue.indLocation }}</li>
+                    <li>{{ indVenue.indAddress }}</li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="images">
+                    <div class="venue-photos">
+                        <div class="close-page"><a href="" ng-click="changeClick(true); resetSlick()"><i class="fa fa-times"></i></a></div>
+                        <slick ng-if="dataLoaded" lazy-load="ondemand" slides-to-show="2" slides-to-scroll="1">
+                            <div class="image-slide" ng-repeat="image in indVenue.indImages"><img ng-src="{{ image }}" alt=""></div>
+                        </slick>
+                    </div>
+                </div>
+                <div ng-bind-html="indVenue.indDescription" class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

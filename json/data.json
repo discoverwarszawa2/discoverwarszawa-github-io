@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+
+
+[
+{% for post in site.posts %} 
+    {
+      "id"           : {% increment var %},
+      "description"  : "{{ post.description }}",
+      "address"      : "{{ post.address }}",
+      "mapLat"       : 13.000000,
+      "mapLong"      : 80.250000,
+      "venueName"    : "{{ post.title }}",
+      "color"        : "{{ post.color }}",
+      "type"         : "{{ post.type }}",
+      "date"         : "{{ post.date | date: "%B %d, %Y" }}",
+      "location"     : "{{ post.location }}",
+      "headimage"    : "{{ post.headimage }}",
+      "thumbnail"    : "{{ post.thumbnail }}",
+      "images"       : [{% for image in post.images %}
+                          "{{ image }}"{% if forloop.last == true %}{% else %},{% endif %}
+                        {% endfor %}]
+    }{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]

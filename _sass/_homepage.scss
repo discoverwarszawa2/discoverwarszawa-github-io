@@ -1,0 +1,48 @@
+.search {
+	margin-bottom: 20px;
+}
+
+.search-venues {
+	width: 100%;
+	padding: 10px;
+	height: 50px;
+	font-size: 16px;
+	background-color: #2A3840;
+	border: none;
+	transition: all .7s;
+	&:focus {
+		background-color: white;
+		&::-webkit-input-placeholder {
+		 color: #2A3840;
+		}
+		&:-moz-placeholder { /* older Firefox*/
+		 color: #2A3840;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */ 
+		 color: #2A3840; 
+		} 
+		&:-ms-input-placeholder { 
+		 color: #2A3840;
+		}
+	}
+	&::-webkit-input-placeholder {
+	 color: #fff;
+	}
+	&:-moz-placeholder { /* older Firefox*/
+	 color: #fff;
+	}
+	&::-moz-placeholder { /* Firefox 19+ */ 
+	 color: #fff; 
+	} 
+	&:-ms-input-placeholder { 
+	 color: #fff;
+	}
+}
+
+.hero {
+	background: url('../img/warszawa-2.jpg');
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 42px;
+	min-height: 380px;
+}

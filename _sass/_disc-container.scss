@@ -1,0 +1,121 @@
+.disc-tiles {
+    margin: 0 auto;
+}
+
+.tile-container {
+    margin: 0 auto;
+}
+
+.disc-container {
+    display: block;
+    float: left;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: #F8F8F8;
+    height: 242px;
+    width: 220px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-radius: 3px;
+    @media screen and (max-width: 1200px) {
+        width: 227px;
+    }
+    @media screen and (max-width: 992px) {
+        width: 232px;
+    }
+    @media screen and (max-width: 768px) {
+        width: calc(50% - 8px);
+    }
+    @media screen and (max-width: 400px) {
+        width: calc(100% - 8px);
+    }
+}
+
+.color-wola {
+    background-color: #53B3CB;
+}
+
+.color-solec {
+    background-color: #1B998B;
+    .disc-footer-info,
+    .disc-footer-info a {
+        color: white;
+    }
+}
+
+.color-citycenter {
+    background-color: #E01A4F;
+    .disc-footer-info,
+    .disc-footer-info a {
+        color: white;
+    }
+}
+
+.color-zoliborz {
+    background-color: #F9C22E;
+}
+
+.disc-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+}
+
+.disc-image img {
+    height: 230px;
+    width: auto;
+}
+
+.disc-image-overlay {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    background: rgba(255, 255, 255, 0);
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.disc-image:hover .disc-image-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.disc-footer {
+    font-size: 12px;
+    margin-top: 4px;
+    letter-spacing: .8px;
+    font-weight: 400;
+    @media screen and (max-width: 992px) {
+        font-size: 10px;
+        letter-spacing: .7px;
+    }
+}
+
+.disc-footer-info {
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.disc-footer-info a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.disc-footer-icon {
+    float: right;
+}

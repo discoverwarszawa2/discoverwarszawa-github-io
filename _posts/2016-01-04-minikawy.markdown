@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Ministerstwo Kawy"
+date:   2016-01-04 15:16:00
+categories: cafe
+location: "City Center"
+color: "citycenter"
+address: "ul. Marszałkowskiej 27/35, Warsaw"
+telephone: "+48 503 080 906"
+website: https://www.facebook.com/MinisterstwoKawy
+type: coffee
+headimage: /img/minikawy/reduced/minikawy-9.jpg
+thumbnail: /img/minikawy/reduced/minikawy-1.jpg
+openingtimes: "Mon-Wed 8am to 10pm; Thu-Fri 8am-11pm; Sat 10am-11pm; Sun 10am-10pm"
+images:
+- /img/minikawy/reduced/minikawy-2.jpg
+- /img/minikawy/reduced/minikawy-3.jpg
+- /img/minikawy/reduced/minikawy-4.jpg
+- /img/minikawy/reduced/minikawy-5.jpg
+- /img/minikawy/reduced/minikawy-6.jpg
+head-background: "black-background"
+description: "<p>I only visited Ministerstwo Kawy once during my time in Warsaw, but I will be sure to visit again when I am next in the city. Spotted during a search for cafe's in my last few weeks residing in Warsaw. I wasn't surprised by it's place in a list of top cafe's in a <a href='http://sprudge.com/great-coffee-in-poland-part-2-the-marvelous-cafes-of-warsaw-56228.html' target='blank'>Sprudge article</a></p><p>The cafe offers coffee using alternative brewing methods, with a wide range of cakes and wine available. During my visit the atmosphere was extremely relaxed, with great service offered by the staff.</p>"
+---

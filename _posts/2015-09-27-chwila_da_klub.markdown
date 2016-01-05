@@ -10,7 +10,7 @@ telephone: "22 401 17 54"
 website: https://www.facebook.com/miejsceChwila/timeline
 type: beer
 headimage: /img/chwiladaklub/reduced/chwila_6.JPG
-thumbnail: /img/chwiladaklub/reduced/chwila_thumb.JPG
+thumbnail: /img/chwiladaklub/reduced/chwila_thumb.jpg
 openingtimes: "check website"
 images:
 - /img/chwiladaklub/reduced/chwila_1.JPG

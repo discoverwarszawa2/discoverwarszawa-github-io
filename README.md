@@ -1,1 +1,1 @@
-# jekyll-boilerplate
+# Discover Warsaw
